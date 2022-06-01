@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head id="Head1">
+    <title>font testing</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <style type="text/css">
+        @font-face {
+            font-family: "LibNarrowRegular";
+            src: url(LiberationSansNarrow-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: "LibNarrowBold";
+            src: url(LiberationSansNarrow-Bold.ttf);
+        }
+
+        @font-face {
+            font-family: "Liberation Sans Narrow";
+            src: url(LiberationSansNarrow-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: "Liberation Sans Narrow";
+            src: url(LiberationSansNarrow-Bold.ttf);
+        }
+
+        TH {
+            border-top: black 1pt solid;
+            border-bottom: black 1pt solid;
+            background-color: gainsboro;
+        }
+    </style>
+</head>
+<body id="body">
+    <form name="form1">
+        <table CELLPADDING="0" CELLSPACING="0" border="0" align="center" width="100%">
+            <tr>
+                <th ALIGN="LEFT">No.</th>
+                <th align="CENTER">Text</th>
+            </tr>
+            <tr style="font-family: 'Consolas'">
+                <td>1</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit - Consolas</td>
+            </tr>
+            <tr style="font-family: 'Liberation Sans Narrow'">
+                <td>2</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit - Liberation Sans Narrow</td>
+            </tr>
+            <tr style="font-family: 'Liberation Sans Narrow'; font-weight: bold;">
+                <td>3</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit - Liberation Sans Narrow, font-weigth: bold</td>
+            </tr>
+            <tr style="font-family: 'LibNarrowRegular'">
+                <td>4</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit - LibNarrowRegular</td>
+            </tr>
+            <tr style="font-family: 'LibNarrowBold'">
+                <td>5</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit - LibNarrowBold</td>
+            </tr>
+            <tr style="font-family: 'LibNarrowRegular'; font-weight: bold;">
+                <td>6</td>
+                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit - LibNarrowRegular, font-weigth: bold</td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
